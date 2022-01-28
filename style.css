@@ -109,8 +109,6 @@ nav div .navbar-brand{
     height: 150px;
     margin-bottom: 10px;
   }
-  
-
   .unit p {
     text-align: left;
     margin: 2px;
@@ -120,3 +118,59 @@ nav div .navbar-brand{
     font-weight: bolder;
     margin-bottom: 5px;
   }
+  .category h2{
+     text-align: center;
+  }
+  .category .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+  }
+  
+  .category .box-container .box{
+      flex:1 1 28rem;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    border:.1rem solid rgba(0,0,0,.3);
+    cursor: pointer;
+    border-radius: .5rem;
+  }
+  
+  .category .box-container .box .image{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+    position: absolute;
+    top:-100%; left:0;
+  }
+  
+  .category .box-container .box .content{
+    text-align: center;
+    background:#fff;
+    padding:2rem;
+  }
+  
+  .category .box-container .box .content img{
+    margin:1.5rem 0;
+  }
+  
+  .category .box-container .box .content h3{
+    font-size: 2.5rem;
+    color:#333;
+  }
+  
+  .category .box-container .box .content p{
+    font-size: 1.6rem;
+    color:#666;
+    padding:1rem 0;
+  }
+  
+  .category .box-container .box:hover .image{
+    top:0;
+  }
+  
+  .category .box-container .box:hover .content{
+    transform: translateY(100%);
+  }
+  
