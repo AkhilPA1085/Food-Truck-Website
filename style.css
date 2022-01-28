@@ -54,3 +54,69 @@ nav div .navbar-brand{
     border-top: 0;
     border-bottom: 2px solid #fff !important;
 }
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: rgb(255, 255, 255);
+  }
+
+  .hr {
+    display: flex;
+    align-items: center;
+  }
+
+  hr {
+    width: 30px;
+    height: 1px;
+    background: black;
+    margin: 0 15px;
+  }
+
+  h2 {
+    margin-top: 2rem;  
+    font-size: 3em;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: rgb(134, 133, 132);
+  }
+
+  p {
+    text-align: justify;
+  }
+
+  .aboutus {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .unit {
+    margin: 25px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .unit img {
+    cursor: pointer; 
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+  }
+  
+
+  .unit p {
+    text-align: left;
+    margin: 2px;
+  }
+
+  .unit p:first-of-type {
+    font-weight: bolder;
+    margin-bottom: 5px;
+  }
