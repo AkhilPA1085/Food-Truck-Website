@@ -1,0 +1,14 @@
+*{
+
+    margin:0; padding:0;
+
+
+}
+body{
+    font-family: 'Nunito', sans-serif;
+}
+nav div .navbar-brand{
+    font-size: 2rem;
+    font-weight: 3rem;
+    color: rgb(251, 36, 8)!important;
+}
